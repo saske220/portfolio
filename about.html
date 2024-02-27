@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/modern-css-reset/dist/reset.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js"></script>
+  </head>
+  <body>
+    <div class="box">
+      <div class="wave -one"></div>
+      <div class="wave -two"></div>
+      <div class="wave -three"></div>
+      <div class="title">about</div>
+    </div>
+    <header class="header">
+      <ul class="header__menu">
+        <li class="header__list"><a href="./index.html">home</a></li>
+        <li class="header__list"><a href="./about.html">about</a></li>
+        <li class="header__list"><a href="./works.html">works</a></li>
+        <li class="header__list"><a href="">contact</a></li>
+      </ul>
+      <ul class="header__sns sns">
+        <li class="sns__list">
+          <a href="https://twitter.com/furuhashi0220"
+            ><img src="./images/logo-white.png" alt=""
+          /></a>
+        </li>
+        <li class="sns__list">
+          <a href="https://sasukef.fem.jp/blog/">blog</a>
+        </li>
+      </ul>
+    </header>
+    <main class="main">
+      <div class="main__inner">
+        <section class="fist-c">
+          <div class="sidebar">
+            <img
+              class="sidebar__img gsap-left"
+              src="./images/i-image.jpg"
+              alt=""
+            />
+          </div>
+          <div class="content">
+            <h1 class="content__title">
+              わからないは<br />
+              成長の根源
+            </h1>
+            <p class="content__text">
+              「わからない」は、無知の象徴ではなく、
+              成長の原動力です。知りたいという好奇心は、探求心を駆り立て、知識や経験を積み重ねることで、新たな発見や成長へと繋がります。
+              分からないことへの恐れを乗り越え、積極的に学ぶ姿勢こそが、無限の可能性を秘めた「成長の根源」なのです
+            </p>
+
+            <div class="about">
+              <h2 class="about__title">古橋 冴介</h2>
+              <hr class="gsap-line" />
+              <p class="about__text">
+                Web業界は全くの無知人間として、トライデントコンピュータ専門学校Webデザイン学科に入学。高校時代にゲームがしたくパソコンを買いスペック不足が要因で自作パソコンを制作したのをきっかけにコンピュータ関連に興味を持ち、最終的にWeb業界に辿り着いた。
+              </p>
+            </div>
+          </div>
+        </section>
+        <section class="second-c">
+          <div class="hobby">
+            <h2 class="hobby__title">趣味について</h2>
+            <hr class="gsap-line" />
+            <p class="hobby__text">
+              小さい頃から好きだった車。今となっては車好きが故に、毎日目標向かって努力できてる結果に。<br />
+              好きな車はToyota Castrol TOM'S SUPRA '97<br />
+              全てにおいて素晴らしい完成度と思います。昔はグランツーリスモ３でよく使っていました。<br />
+              好きな車とはまた別に、乗りたい車はTOYOTA GR86<br />
+              車好きじゃなくても一度は聞いたことあるTVアニメ頭文字Dに登場する初代86のAE86の現代モデル<br />
+              将来86に乗りたいという夢にたどり着くように、学生生活のうちに頭金を稼ぐためアルバイトを高校時代から貯金をしている。<br />
+              もう一つの趣味が、自作PC。最初はPCゲームを目的に自作を初めたが、今となってはPCを制作するというのが好きになっていた。最初の購入したパソコンが、core
+              i7 9700/GTX1660Ti/メモリ16GB /電力450Wの性能<br />
+              PCオタクだとわかる圧倒的電力不足。電力不足が原因で快適にゲームができず不満に思い、これをきっかけに自作PCを制作。<br />
+              気がついたらPC部品が増えていた。かき集めたらPCが3台ぐらい作れるほどの部品数になりいつの間にか、自作PCにハマっていた。<br />
+              現在使っているデスクトップwindowsの性能はcore i7 12700k
+              /RTX3060/メモリ32GB/ストレージSSD3TB/HDD2TB/この性能で現在はほぼゲームをしていない。
+            </p>
+          </div>
+          <div class="sidebar">
+            <img
+              class="sidebar__img gsap-right"
+              src="./images/hobby-1.webp"
+              alt=""
+            />
+          </div>
+        </section>
+
+        <section class="skill">
+          <h2 class="skill__title">My skill</h2>
+          <hr class="gsap-line" />
+
+          <div class="skill__items">
+            <div class="skill__item item">
+              <div class="item__titleBox">
+                <h3 class="item__title">Photoshop</h3>
+                <h4 class="item__subtitle">使用時期：2023.05~</h4>
+              </div>
+              <div class="item__textBox">
+                <p class="item__text">
+                  太陽が輝く中、青い空が広がる。風は心地よく、草原は緑に輝く。鳥たちが歌い、木々がそよぐ。自然の調和が満ち溢れる中、人々は平和に生きる。笑顔が絶えず、喜びが満ちる。夢と希望が未来を彩り、愛が全てを包む。この美しい世界で、人々は幸せに満ちた日々を過ごす。
+                </p>
+              </div>
+            </div>
+            <div class="skill__item item">
+              <div class="item__titleBox">
+                <h3 class="item__title">Illustrator</h3>
+                <h4 class="item__subtitle">使用時期：2023.05~</h4>
+              </div>
+              <div class="item__textBox">
+                <p class="item__text">
+                  太陽が輝く中、青い空が広がる。風は心地よく、草原は緑に輝く。鳥たちが歌い、木々がそよぐ。自然の調和が満ち溢れる中、人々は平和に生きる。笑顔が絶えず、喜びが満ちる。夢と希望が未来を彩り、愛が全てを包む。この美しい世界で、人々は幸せに満ちた日々を過ごす。
+                </p>
+              </div>
+            </div>
+            <div class="skill__item item">
+              <div class="item__titleBox">
+                <h3 class="item__title">Illustrator</h3>
+                <h4 class="item__subtitle">使用時期：2023.05~</h4>
+              </div>
+              <div class="item__textBox">
+                <p class="item__text">
+                  太陽が輝く中、青い空が広がる。風は心地よく、草原は緑に輝く。鳥たちが歌い、木々がそよぐ。自然の調和が満ち溢れる中、人々は平和に生きる。笑顔が絶えず、喜びが満ちる。夢と希望が未来を彩り、愛が全てを包む。この美しい世界で、人々は幸せに満ちた日々を過ごす。
+                </p>
+              </div>
+            </div>
+            <div class="skill__item item">
+              <div class="item__titleBox">
+                <h3 class="item__title">Illustrator</h3>
+                <h4 class="item__subtitle">使用時期：2023.05~</h4>
+              </div>
+              <div class="item__textBox">
+                <p class="item__text">
+                  太陽が輝く中、青い空が広がる。風は心地よく、草原は緑に輝く。鳥たちが歌い、木々がそよぐ。自然の調和が満ち溢れる中、人々は平和に生きる。笑顔が絶えず、喜びが満ちる。夢と希望が未来を彩り、愛が全てを包む。この美しい世界で、人々は幸せに満ちた日々を過ごす。
+                </p>
+              </div>
+            </div>
+            <div class="skill__item item">
+              <div class="item__titleBox">
+                <h3 class="item__title">Illustrator</h3>
+                <h4 class="item__subtitle">使用時期：2023.05~</h4>
+              </div>
+              <div class="item__textBox">
+                <p class="item__text">
+                  太陽が輝く中、青い空が広がる。風は心地よく、草原は緑に輝く。鳥たちが歌い、木々がそよぐ。自然の調和が満ち溢れる中、人々は平和に生きる。笑顔が絶えず、喜びが満ちる。夢と希望が未来を彩り、愛が全てを包む。この美しい世界で、人々は幸せに満ちた日々を過ごす。
+                </p>
+              </div>
+            </div>
+            <div class="skill__item item">
+              <div class="item__titleBox">
+                <h3 class="item__title">Illustrator</h3>
+                <h4 class="item__subtitle">使用時期：2023.05~</h4>
+              </div>
+              <div class="item__textBox">
+                <p class="item__text">
+                  太陽が輝く中、青い空が広がる。風は心地よく、草原は緑に輝く。鳥たちが歌い、木々がそよぐ。自然の調和が満ち溢れる中、人々は平和に生きる。笑顔が絶えず、喜びが満ちる。夢と希望が未来を彩り、愛が全てを包む。この美しい世界で、人々は幸せに満ちた日々を過ごす。
+                </p>
+              </div>
+            </div>
+            <div class="skill__item item">
+              <div class="item__titleBox">
+                <h3 class="item__title">Illustrator</h3>
+                <h4 class="item__subtitle">使用時期：2023.05~</h4>
+              </div>
+              <div class="item__textBox">
+                <p class="item__text">
+                  太陽が輝く中、青い空が広がる。風は心地よく、草原は緑に輝く。鳥たちが歌い、木々がそよぐ。自然の調和が満ち溢れる中、人々は平和に生きる。笑顔が絶えず、喜びが満ちる。夢と希望が未来を彩り、愛が全てを包む。この美しい世界で、人々は幸せに満ちた日々を過ごす。
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="footer"></footer>
+    <script src="./js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js"></script>
+  </body>
+</html>
